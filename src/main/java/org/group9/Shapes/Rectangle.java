@@ -1,7 +1,5 @@
 package org.group9.Shapes;
 
-import org.w3c.dom.css.Rect;
-
 public class Rectangle extends Shape {
     protected final double x;
     protected final double y;

@@ -22,6 +22,6 @@ public class NoDependencyTest {
 
     @org.junit.jupiter.api.Test
     void test4() {
-        assertThrows(ArithmeticException.class, () -> { var a = 5/0; });
+        assertThrows(ArithmeticException.class, () -> { @SuppressWarnings({"divzero", "NumericOverflow"}) var a = 5/0; });
     }
 }

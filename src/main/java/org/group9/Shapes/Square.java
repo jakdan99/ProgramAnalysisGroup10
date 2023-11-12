@@ -1,6 +1,7 @@
 package org.group9.Shapes;
 
 public class Square extends Rectangle {
+    @SuppressWarnings("SuspiciousNameCombination")
     public Square(double x) {
         super(x, x);
     }
