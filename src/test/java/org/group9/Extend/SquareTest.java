@@ -1,4 +1,4 @@
-package org.group9.Shapes;
+package org.group9.Extend;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

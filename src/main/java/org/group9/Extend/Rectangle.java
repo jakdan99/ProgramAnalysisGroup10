@@ -1,4 +1,4 @@
-package org.group9.Shapes;
+package org.group9.Extend;
 
 public class Rectangle extends Shape {
     protected final double x;

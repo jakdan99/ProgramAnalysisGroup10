@@ -1,4 +1,4 @@
-package org.group9.Shapes;
+package org.group9.Extend;
 
 public abstract class Shape {
     public abstract double width();

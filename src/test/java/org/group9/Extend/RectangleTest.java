@@ -1,4 +1,4 @@
-package org.group9.Shapes;
+package org.group9.Extend;
 
 import static org.junit.jupiter.api.Assertions.*;
 

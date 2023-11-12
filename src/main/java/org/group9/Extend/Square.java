@@ -1,4 +1,4 @@
-package org.group9.Shapes;
+package org.group9.Extend;
 
 public class Square extends Rectangle {
     @SuppressWarnings("SuspiciousNameCombination")
