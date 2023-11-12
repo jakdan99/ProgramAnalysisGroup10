@@ -10,6 +10,6 @@ public class Constant {
     }
 
     public int noConstant() {
-        return new Random().nextInt();
+        return new Random().nextInt(0, Integer.MAX_VALUE);
     }
 }

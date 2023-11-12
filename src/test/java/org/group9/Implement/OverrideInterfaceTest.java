@@ -25,6 +25,12 @@ class OverrideInterfaceTest {
 
     @Test
     void defaultOverrideAndExtend() {
-        assertEquals("Override and Extend", override.DefaultOverrideAndExtend());
+        assertEquals("Override and extended", override.DefaultOverrideAndExtend());
+    }
+
+    @Test
+    void multipleCallsInOneTest() {
+        assertEquals("Overridden" ,override.DefaultOverride());
+        assertEquals("Override and extended", override.DefaultOverrideAndExtend());
     }
 }

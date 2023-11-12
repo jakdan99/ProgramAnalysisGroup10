@@ -15,4 +15,10 @@ class ConstantTest {
     void noConstant() {
         assertTrue(new Constant().noConstant() > 0);
     }
+
+    @Test
+    void multipleCallsInOneTest() {
+        assertEquals(Constant.constant, new Constant().getConstant());
+        assertTrue(new Constant().noConstant() > 0);
+    }
 }

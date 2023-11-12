@@ -20,4 +20,10 @@ class FinalClassTest {
     void foobaz() {
         assertEquals("foo10", new FinalClass().foobaz());
     }
+
+    @Test
+    void multipleCallsInOneTest() {
+        assertEquals(10, new FinalClass().baz());
+        assertEquals("foo", new FinalClass().foo());
+    }
 }

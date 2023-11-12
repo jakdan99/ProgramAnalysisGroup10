@@ -34,4 +34,11 @@ class SquareTest {
     void circumference() {
         assertEquals(4*width, sq.circumference());
     }
+
+    @Test
+    void multipleCallsInOneTest() {
+        assertEquals(width, sq.width());
+        assertEquals(width, sq.height());
+        assertEquals(width*width, sq.area());
+    }
 }
