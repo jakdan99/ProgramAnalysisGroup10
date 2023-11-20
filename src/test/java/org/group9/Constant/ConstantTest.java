@@ -21,4 +21,9 @@ class ConstantTest {
         assertEquals(Constant.constant, new Constant().getConstant());
         assertTrue(new Constant().noConstant() > 0);
     }
+
+    @Test
+    void constantValue() {
+        assertNotEquals(1, Constant.constant);
+    }
 }
